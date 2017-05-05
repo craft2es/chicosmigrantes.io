@@ -1,14 +1,37 @@
 /*
+Tabla de contenidos: 
+
+color palette 
+
+						MAJESTIC BLUE: 011627;
+						SMOKE WHITE (WHITE) F5F7F4;
+						MIDDLE GREEN BLUE (FOR HOVER) #7AD9D0;
+						DEEP SAFFRON (TITLE COLOR) FFA730
+
+
+
 FONT FAMILY GROUPS: 
-font-family: 'Gentium Basic', serif;
-font-family: 'Open Sans', sans-serif; */
+TITLE----------font-family: 'Open Sans', sans-serif; (TITLE)
+HEADLINE-------Font-family: 'Gentium Basic', serif; (ITALICS)
+DECK-----------font-family: 'Open Sans', sans-serif; 
+BODY-----------Font-family: 'Gentium Basic', serif; (BODY)
+						font-family: 'Open Sans', sans-serif; (TITLE)
 
 
-body {
-		background-color: #000000;
-		color: #ffffff;
+*/
+
+article{
+	background-color: #011627;
+}
+
+body{
+		background-color: #011627;
+		color: #F5F7F4;
+		font-family: 'Gentium Basic', serif;
+
+
   margin: 0 auto;
-  max-width: 700px;
+  max-width: 800px;
   text-align: center;
 		display: block;
 		text-align: justify;
@@ -16,14 +39,29 @@ body {
 		margin-right: auto;
 }
 
+header {
+font-family: 'Open Sans', sans-serif;
+color: #FFA730;
+
+
+}
 h1 {
         text-align: center;
         width: 500px;
 
 }
+
+blockquote {
+background-color: #011627;
+		color: #FFA730;
+		font-family: 'Gentium Basic', serif;
+		font-style: bold
+
+
+}
 #title{
-/*    max-width: 1300px;
- */    width: 100%;
+   max-width: 1300px;
+    width: 100%;
     height: auto;
   text-align: center;
   font-style: italic;
