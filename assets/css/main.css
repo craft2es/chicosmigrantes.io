@@ -3,8 +3,8 @@ Tabla de contenidos:
 
 color palette 
 
-BACKGROUND------MAJESTIC BLUE: 011627;
-FONT------------SMOKE WHITE (WHITE) F5F7F4;
+BACKGROUND------MAJESTIC BLUE: #011627;
+FONT------------SMOKE WHITE (WHITE) #F5F7F4;
 HOVER-----------MIDDLE GREEN BLUE (FOR HOVER) #7AD9D0;
 TITLE/ACCENT----DEEP SAFFRON (TITLE COLOR) #FFA730
 
@@ -22,17 +22,17 @@ OR:
 BODY_____font-family: 'Old Standard TT', serif;
 TITLE____font-family: 'Questrial', sans-serif;
 
+  */
 
 
 
-*/
 
 @import url('https://fonts.googleapis.com/css?family=Gentium+Basic:400,700');
 
 body{
 	background-color: #011627;
 	color: #F5F7F4;
-	font-family: 'Gentium Basic', serif;
+	font-family:  'Old Standard TT', serif;
 	font-size: 24px;
 	font-style: normal;
 	margin: 0;
@@ -43,25 +43,100 @@ body{
 	margin-right: auto;
 }
 
-header {
+/* .menu {
+	position: relative;
+	display: block;
+	width: 30%;
+	float: left;
+
+} */
+
+nav ul {
+	list-style: none;
+	margin: 0 auto;
+}
+
+.menu li {
+	width: 33%;
+	float: left;
+}
+
+.menu a {
+	padding: 15px 0;
+	color: rgba(255, 255, 255, 1.0);
+	text-decoration: none; 
+	text-align: center;
+}
+
+nav {
+	position: align-content: space-between;
+	width: 100%;
+	bottom: 320px;
+	text-align: center;
+}
+/*
+
+.line {
+	display: block;
+	width: 35%;
+	margin-top: 15px;
+	height: 2px;
+	background-color: white;
+	float: left;
+}
+
+.menu {
+	position: relative;
+	display: block;
+	width: 30%;
+	float: left;
+
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 auto;
+}
+
+.menu li {
+	width: 33%;
+	float: left;
+}
+
+
+.menu a:hover {
+	color: rgba(255, 255, 255, 0.7);
+}
+
+*/
+
+li a {
+	font-size: 1.4rem;
+	color: white;
+}
+div.menu {
+border: 1px solid red;
 	background-color: #000;
 	font-family: 'Questrial', sans-serif;
-	color: #FFA730;
+	color: #011627;
 	width: 100%;
 	position: relative;
 }
-
+/* 
+This styles the headline, deck, and byline */
+/* this is the headline */
 h1 {
 	color: #FFA730;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Questrial', sans-serif;
 	font-size: 4rem;
 	font-weight: 700;
 	text-align: center;
 	max-width: 100%;
 }
 
+/* byline */
 h2{
-	font-family: 'Gentium Basic', serif;
+	font-family:  'Old Standard TT', serif;
 	color: #FFA730; 
 	font-size: 2rem;
 	font-style: normal;
@@ -69,7 +144,7 @@ h2{
 
 h3{
 	color: #011627;
-	font-family: font-family: 'Gentium Basic', serif;
+	font-family:  'Old Standard TT', serif;
 	font-weight: bold;
 	font-size: 28px;
 
@@ -226,13 +301,17 @@ a:active {
 	font-size: 20px;
 
 }
+/* 
+This section styles pull quotes
+they will be 
+- centered
+- in font questrial (like title)
+- in accent color #FFA730
 
-
-
+ */
 blockquote {
-/* background-color: #011627; */
 		color: #FFA730;
-		font-family: 'Open Sans', sans-serif; 
+		font-family: 'Questrial', sans-serif;
 		font-size: 24px;
 		font-weight: normal;
 		width: 50%; 
@@ -240,11 +319,13 @@ blockquote {
 	margin-left: auto;
 	margin-right: auto;
 }
-
-.quote1{
+ /* quote 1 centered */
+/* .quote-1{
 	float: left;
+	justify-content: center;
 	border: 1px solid red;
 }
+ */
 
 /* .inline-img{
 	min-height: 100%;
@@ -252,9 +333,6 @@ blockquote {
   max-width: 100%;
  }
  */
-
-
-
 
 /* 
 #title{
@@ -266,4 +344,4 @@ blockquote {
   font-size: smaller;
   margin-left: auto;
 	margin-right: auto;
-} */
+} 
