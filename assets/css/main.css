@@ -6,7 +6,7 @@ color palette
 BACKGROUND------MAJESTIC BLUE: 011627;
 FONT------------SMOKE WHITE (WHITE) F5F7F4;
 HOVER-----------MIDDLE GREEN BLUE (FOR HOVER) #7AD9D0;
-TITLE/ACCENT----DEEP SAFFRON (TITLE COLOR) FFA730
+TITLE/ACCENT----DEEP SAFFRON (TITLE COLOR) #FFA730
 
 
 
@@ -16,6 +16,11 @@ BYLINE-------Font-family: 'Gentium Basic', serif; (ITALICS)
 DECK-----------font-family: 'Open Sans', sans-serif; 
 BODY-----------Font-family: 'Gentium Basic', serif; (BODY)
 						font-family: 'Open Sans', sans-serif; (TITLE)
+
+
+OR:
+BODY_____font-family: 'Old Standard TT', serif;
+TITLE____font-family: 'Questrial', sans-serif;
 
 
 
@@ -28,7 +33,7 @@ body{
 	background-color: #011627;
 	color: #F5F7F4;
 	font-family: 'Gentium Basic', serif;
-	font-size: 16px;
+	font-size: 24px;
 	font-style: normal;
 	margin: 0;
 	padding: 0;
@@ -42,16 +47,21 @@ article{
 /* 	padding: 50px;
  */	background-color: #011627;
 	color: #F5F7F4;
-	font-family: 'Gentium Basic', serif;
-	font-size: 16px;
+	font-family:'Old Standard TT', serif;
+	font-size: 24px;
 }
 
 header {
 	background-color: #000;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Questrial', sans-serif;
 	color: #FFA730;
 	width: 100%;
 	position: relative;
+
+
+}
+ li {
+    list-style-type: none;
 }
 
 /* header nav {
@@ -87,8 +97,7 @@ section {
 	width: 100%;
 	padding: 90px 0;
 	/* TRouBLe */
-	/* background-color: red;
-	 */
+
 	 /* border: 1px solid red; */
 }
 
@@ -119,6 +128,9 @@ p {
 }
 
 .hero{
+	font-family: 'Questrial', sans-serif;
+	font-style: normal;
+	font-size: 16px;
 	width: 700px;
 	height: 100vh;
 	padding: 0;
@@ -126,6 +138,40 @@ p {
 	text-transform: uppercase;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+aside {
+
+/* 		border: 1px solid red;
+ */		float: right;
+	    width: 25%;
+	    margin: 3em 1em 0.6em 2em;
+	    opacity: 1;
+	    border-top: 1px solid #ccc;
+
+}
+
+.sidebar-docs{
+	color: #FFA730;
+
+
+
+}
+.title {
+/* 	border: 1px solid red;
+ */	color: #7AD9D0;
+	font-family: 'Questrial', sans-serif;
+	font-style: normal
+	font-size: 30px;
+}
+
+.group{
+	/* font-family: 'Old Standard TT', serif; */
+	font-family: 'Questrial', sans-serif;
+	font-style: norma;
+	font-weight: normal;
+	font-size: 20px;
+
 }
 
 h1 {
@@ -153,7 +199,7 @@ h3{
 }
 
 blockquote {
-background-color: #011627;
+/* background-color: #011627; */
 		color: #FFA730;
 		font-family: 'Open Sans', sans-serif; 
 		font-size: 24px;
@@ -162,6 +208,11 @@ background-color: #011627;
 		text-align: justify;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.quote1{
+	float: left;
+	border: 1px solid red;
 }
 
 /* .inline-img{
