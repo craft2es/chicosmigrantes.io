@@ -75,11 +75,11 @@ header {
 a{
 	text-decoration: none;
 }
-
+/* 
 a:link, a:visited {
     color: #7AD9D0;
 }
-
+ */
 header ul {
 	margin: 0 auto;
 	list-style: none;
