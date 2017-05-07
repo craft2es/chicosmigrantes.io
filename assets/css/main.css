@@ -43,43 +43,38 @@ body{
 	margin-right: auto;
 }
 
-article{
-/* 	padding: 50px;
- */	background-color: #011627;
-	color: #F5F7F4;
-	font-family:'Old Standard TT', serif;
-	font-size: 24px;
-}
-
 header {
 	background-color: #000;
 	font-family: 'Questrial', sans-serif;
 	color: #FFA730;
 	width: 100%;
 	position: relative;
-
-
-}
- li {
-    list-style-type: none;
 }
 
-/* header nav {
-	width: auto;
-	position: absolute;
-	left: 0;
-	right: 0;
-
-} */
-
-a{
-	text-decoration: none;
+h1 {
+	color: #FFA730;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 4rem;
+	font-weight: 700;
+	text-align: center;
+	max-width: 100%;
 }
-/* 
-a:link, a:visited {
-    color: #7AD9D0;
+
+h2{
+	font-family: 'Gentium Basic', serif;
+	color: #FFA730; 
+	font-size: 2rem;
+	font-style: normal;
 }
- */
+
+h3{
+	color: #011627;
+	font-family: font-family: 'Gentium Basic', serif;
+	font-weight: bold;
+	font-size: 28px;
+
+}
+
 header ul {
 	margin: 0 auto;
 	list-style: none;
@@ -100,6 +95,28 @@ header a {
 	color:  white;
 	text-decoration: none;
 }
+
+
+article{
+/* 	padding: 50px;
+ */	background-color: #011627;
+	color: #F5F7F4;
+	font-family:'Old Standard TT', serif;
+	font-size: 24px;
+}
+
+ li {
+    list-style-type: none;
+}
+
+/* header nav {
+	width: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+
+} */
+
 
 section {
 	width: 100%;
@@ -159,6 +176,34 @@ aside {
 
 }
 
+	a{
+	text-decoration: none;
+}
+/* 
+a:link, a:visited {
+    color: #7AD9D0;
+}
+ */
+
+ a:link {
+    color: #7AD9D0;
+}
+
+/* visited link */
+a:visited {
+    color: #7AD9D0;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FFA730;
+}
+
+/* selected link */
+a:active {
+    color: #FFA730;
+}
+
 .sidebar-docs{
 	color: #FFA730;
 
@@ -182,29 +227,7 @@ aside {
 
 }
 
-h1 {
-	color: #FFA730;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 4rem;
-	font-weight: 700;
-	text-align: center;
-	max-width: 50%;
-}
 
-h2{
-	font-family: 'Gentium Basic', serif;
-	color: #FFA730; 
-	font-size: 2rem;
-	font-style: normal;
-}
-
-h3{
-	color: #011627;
-	font-family: font-family: 'Gentium Basic', serif;
-	font-weight: bold;
-	font-size: 28px;
-
-}
 
 blockquote {
 /* background-color: #011627; */
