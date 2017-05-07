@@ -72,6 +72,14 @@ header {
 
 } */
 
+a{
+	text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #7AD9D0;
+}
+
 header ul {
 	margin: 0 auto;
 	list-style: none;
@@ -168,7 +176,7 @@ aside {
 .group{
 	/* font-family: 'Old Standard TT', serif; */
 	font-family: 'Questrial', sans-serif;
-	font-style: norma;
+	font-style: normal;
 	font-weight: normal;
 	font-size: 20px;
 
