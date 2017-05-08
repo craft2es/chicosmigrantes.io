@@ -29,6 +29,7 @@ TITLE____font-family: 'Questrial', sans-serif;
 
 @import url('https://fonts.googleapis.com/css?family=Gentium+Basic:400,700');
 
+
 body{
 	background-color: #011627;
 	color: #F5F7F4;
@@ -42,86 +43,74 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 }
+/* 
+This styles the nav menu */
+	nav ul {
+		list-style: none;
+		margin: 0 auto;
+	}
 
-/* .menu {
-	position: relative;
-	display: block;
-	width: 30%;
-	float: left;
+	.menu li {
+		width: 33%;
+		float: left;
+	}
 
-} */
+	.menu a {
+		padding: 15px 0;
+		color: rgba(255, 255, 255, 1.0);
+		text-decoration: none;
 
-nav ul {
-	list-style: none;
-	margin: 0 auto;
-}
+	/* 	text-align: center;
+	 */}
 
-.menu li {
-	width: 33%;
-	float: left;
-}
-
-.menu a {
-	padding: 15px 0;
-	color: rgba(255, 255, 255, 1.0);
-	text-decoration: none; 
-	text-align: center;
-}
-
-nav {
-	position: align-content: space-between;
-	width: 100%;
-	bottom: 320px;
-	text-align: center;
-}
-/*
-
-.line {
-	display: block;
-	width: 35%;
-	margin-top: 15px;
-	height: 2px;
-	background-color: white;
-	float: left;
-}
-
-.menu {
-	position: relative;
-	display: block;
-	width: 30%;
-	float: left;
-
-}
-
-nav ul {
-	list-style: none;
-	margin: 0 auto;
-}
-
-.menu li {
-	width: 33%;
-	float: left;
-}
+	nav {
+	/* 	position: align-content: space-between;
+	 */	
+	 width: 100%;
+		bottom: 320px;
+		text-align: right;
+	}
+	/*
 
 
-.menu a:hover {
-	color: rgba(255, 255, 255, 0.7);
-}
+	.menu {
+		position: relative;
+		display: block;
+		width: 30%;
+		float: left;
 
-*/
+	}
 
-li a {
-	font-size: 1.4rem;
-	color: white;
-}
-div.menu {
-border: 1px solid red;
-	background-color: #000;
-	font-family: 'Questrial', sans-serif;
-	color: #011627;
-	width: 100%;
-	position: relative;
-}
+	nav ul {
+		list-style: none;
+		margin: 0 auto;
+	}
+
+	.menu li {
+		width: 33%;
+		float: left;
+	}
+
+
+	.menu a:hover {
+		color: rgba(255, 255, 255, 0.7);
+	}
+
+	*/
+
+	li a {
+		font-size: 1.4rem;
+		color: white;
+	}
+	div.menu {
+	/* border: 1px solid red;
+	 */	background-color: #000;
+		font-family: 'Questrial', sans-serif;
+		color: #011627;
+		width: 100%;
+		position: relative;
+		float: right: 
+	}
 
 
 /* .hero {
@@ -149,23 +138,26 @@ border: 1px solid red;
 	font-family: 'Questrial', sans-serif;
 	font-style: normal;
 	font-size: 16px;
-	width: 900px;
+	width: 1000px;
 	height: 100vh;
 	padding: 0;
 	text-align: justify;
 	text-transform: uppercase;
 	margin-left: auto;
 	margin-right: auto;
+
 }
 
 /* 
 This styles the headline, deck, and byline */
 /* this is the headline */
 h1 {
-	margin-top: 105px;
+	text-shadow: 1px 1px 1px black;	
+   margin-top: 170px;
+
 	color: #FFA730;
 	font-family: 'Questrial', sans-serif;
-	font-size: 3rem;
+	font-size: 4rem;
 	font-weight: 700;
 	text-align: center;
 	max-width: 100%;
@@ -177,7 +169,7 @@ h2{
 	color: #FFA730; 
 	font-size: 1.5rem;
 	font-style: normal;
-	justify-content: bottom: 
+
 }
 
 h3{
