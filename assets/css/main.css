@@ -64,6 +64,8 @@ This styles the nav menu */
 	 */}
 
 	nav {
+		 		 border: 1px solid red;	
+		 		 margin: 0;
 	/* 	position: align-content: space-between;
 	 */	
 	 width: 100%;
@@ -132,17 +134,13 @@ This styles the nav menu */
 }
 
 .hero{
-		 border: 1px solid red;
-
-
-	font-family: 'Questrial', sans-serif;
-	font-style: normal;
-	font-size: 16px;
+/* 		 border: 1px solid red;*/	
+/* font-family: 'Questrial', sans-serif; */
+/* 	font-style: normal;
+	font-size: 16px; */
 	width: 1000px;
 	height: 100vh;
 	padding: 0;
-	text-align: justify;
-	text-transform: uppercase;
 	margin-left: auto;
 	margin-right: auto;
 
@@ -152,31 +150,42 @@ This styles the nav menu */
 This styles the headline, deck, and byline */
 /* this is the headline */
 h1 {
+/* 	this adds stroke for definition against photo */
 	text-shadow: 1px 1px 1px black;	
-   margin-top: 170px;
-
+   	margin-top: 150px;
+/*    	height: 50vh;
+ */    margin-bottom: 100px;
 	color: #FFA730;
 	font-family: 'Questrial', sans-serif;
 	font-size: 4rem;
 	font-weight: 700;
 	text-align: center;
 	max-width: 100%;
+	padding: 0 0 0 100px;
+	text-transform: uppercase;
+
 }
 
-/* byline */
+/* deck*/
 h2{
 	font-family:  'Old Standard TT', serif;
+	line-height: 1.25;
 	color: #FFA730; 
-	font-size: 1.5rem;
+	font-size: 2rem;
 	font-style: normal;
+	text-shadow: .2px .1px .1px black;
+	margin-bottom: 100px;
 
 }
-
+/* byline */
 h3{
-	color: #011627;
-	font-family:  'Old Standard TT', serif;
+	text-align: left;
+/* 	margin-top: 100px;
+ */	color: #011627;
+	font-family:  'Questrial', sans-serif;
 	font-weight: bold;
-	font-size: 28px;
+	font-size: 2.2rem;
+		text-transform: uppercase;
 
 }
 
@@ -316,7 +325,7 @@ they will be
 blockquote {
 		color: #FFA730;
 		font-family: 'Questrial', sans-serif;
-		font-size: 24px;
+		font-size: 28px;
 		font-weight: normal;
 		width: 50%; 
 		text-align: justify;
