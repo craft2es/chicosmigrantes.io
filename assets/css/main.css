@@ -248,7 +248,7 @@ section {
 p {
 	display: block;
 	max-width: 750px;
-	text-align: justify;
+	text-align: left;
 	margin-left: auto;
 	margin-right: auto;
 }
