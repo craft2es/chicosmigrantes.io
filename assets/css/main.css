@@ -45,7 +45,28 @@ body{
 }
 /* 
 This styles the nav menu */
-	nav ul {
+	
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* 	nav ul {
 		list-style: none;
 		margin: 0 auto;
 	}
@@ -61,7 +82,7 @@ This styles the nav menu */
 		text-decoration: none;
 
 	/* 	text-align: center;
-	 */}
+	 */} */
 
 	nav {
 /* 		 		 border: 1px solid red;	
@@ -189,17 +210,7 @@ h3{
 
 }
 
-header ul {
-	margin: 0 auto;
-	list-style: none;
-}
 
-header ul li {
-	float: left;
-	width: auto;
-	margin-right: 20px;
-		border: 1px solid red;
-} 
 
 .clearfix {
 	clear: both;
