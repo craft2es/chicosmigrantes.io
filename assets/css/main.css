@@ -1,24 +1,23 @@
 /*
 Tabla de contenidos: 
 
-color palette 
+color palette:
 
-BACKGROUND------MAJESTIC BLUE: #011627;
-FONT------------SMOKE WHITE (WHITE) #F5F7F4;
-HOVER-----------MIDDLE GREEN BLUE (FOR HOVER) #7AD9D0;
-TITLE/ACCENT----DEEP SAFFRON (TITLE COLOR) #FFA730
-
-
+	BACKGROUND------neutral #F0F0F0"
+	FONT------------Carbon #999191;
+	HOVER-----------sky #BDDFED;
+	TITLE/ACCENT----watermelon (ish) #F45555 
 
 FONT FAMILY GROUPS: 
-TITLE----------font-family: 'Open Sans', sans-serif; (TITLE)
-BYLINE-------Font-family: 'Gentium Basic', serif; (ITALICS)
-DECK-----------font-family: 'Open Sans', sans-serif; 
-BODY-----------Font-family: 'Gentium Basic', serif; (BODY)
+
+	TITLE----------font-family: 'Open Sans', sans-serif; (TITLE)
+	BYLINE-------Font-family: 'Gentium Basic', serif; (ITALICS)
+	DECK-----------font-family: 'Open Sans', sans-serif; 
+	BODY-----------Font-family: 'Gentium Basic', serif; (BODY)
 						font-family: 'Open Sans', sans-serif; (TITLE)
 
 
-OR:
+**CURRENT**:
 BODY_____font-family: 'Old Standard TT', serif;
 TITLE____font-family: 'Questrial', sans-serif;
 
@@ -31,8 +30,8 @@ TITLE____font-family: 'Questrial', sans-serif;
 
 
 body{
-	background-color: #011627;
-	color: #F5F7F4;
+	background-color: #F0F0F0;
+	color: #999191;
 	font-family:  'Old Standard TT', serif;
 	font-size: 24px;
 	font-style: normal;
@@ -55,7 +54,7 @@ ul {
 }
 
 li {
-    float: left;
+    float: left
 }
 
 li a {
@@ -66,32 +65,24 @@ li a {
     text-decoration: none;
 }
 
-/* 	nav ul {
-		list-style: none;
-		margin: 0 auto;
-	}
 
-	.menu li {
-		width: 33%;
-		float: left;
-	}
-
-	.menu a {
-		padding: 15px 0;
-		color: rgba(255, 255, 255, 1.0);
-		text-decoration: none;
-
-	/* 	text-align: center;
-	 */} */
 
 	nav {
-/* 		 		 border: 1px solid red;	
- */		 		 margin: 0;
-	/* 	position: align-content: space-between;
-	 */	
+	 		 margin: 0;
+		position: align-content: space-between;
+		
 	 width: 100%;
 		bottom: 320px;
 		text-align: right;
+	}
+
+	div.menu {
+		background-color: #000;
+		font-family: 'Questrial', sans-serif;
+		color: #011627;
+		width: 100%;
+		position: relative;
+		float: right: 
 	}
 	/*
 
@@ -125,15 +116,7 @@ li a {
 		font-size: 1.4rem;
 		color: white;
 	}
-	div.menu {
-	/* border: 1px solid red;
-	 */	background-color: #000;
-		font-family: 'Questrial', sans-serif;
-		color: #011627;
-		width: 100%;
-		position: relative;
-		float: right: 
-	}
+	
 
 
 /* .hero {
@@ -176,7 +159,7 @@ h1 {
    	margin-top: 150px;
 /*    	height: 50vh;
  */    margin-bottom: 100px;
-	color: #FFA730;
+	color: #F45555; 
 	font-family: 'Questrial', sans-serif;
 	font-size: 4rem;
 	font-weight: 700;
@@ -191,7 +174,7 @@ h1 {
 h2{
 	font-family:  'Old Standard TT', serif;
 	line-height: 1.25;
-	color: #FFA730; 
+	color: #a9a9a9; 
 	font-size: 2rem;
 	font-style: normal;
 	text-shadow: .2px .1px .1px black;
@@ -202,7 +185,7 @@ h2{
 h3{
 	text-align: left;
 /* 	margin-top: 100px;
- */	color: #011627;
+ */	color: #999191;
 	font-family:  'Questrial', sans-serif;
 	font-weight: bold;
 	font-size: 2.2rem;
@@ -224,8 +207,8 @@ header a {
 
 article{
 /* 	padding: 50px;
- */	background-color: #011627;
-	color: #F5F7F4;
+ */	background-color: #F0F0F0;
+	color: #999191;
 	font-family:'Old Standard TT', serif;
 	font-size: 24px;
 }
@@ -285,33 +268,33 @@ a:link, a:visited {
  */
 
  a:link {
-    color: #7AD9D0;
+    color: #F45555;
 }
 
 /* visited link */
 a:visited {
-    color: #7AD9D0;
+    color: #F45555;
 }
 
 /* mouse over link */
 a:hover {
-    color: #FFA730;
+    color: #BDDFED;
 }
 
 /* selected link */
 a:active {
-    color: #FFA730;
+    color: #F45555;
 }
 
 .sidebar-docs{
-	color: #FFA730;
+	color: #F45555;
 
 
 
 }
 .title {
 /* 	border: 1px solid red;
- */	color: #7AD9D0;
+ */	color: #BDDFED;
 	font-family: 'Questrial', sans-serif;
 	font-style: normal
 	font-size: 30px;
@@ -334,7 +317,7 @@ they will be
 
  */
 blockquote {
-		color: #FFA730;
+		color: #F45555;
 		font-family: 'Questrial', sans-serif;
 		font-size: 28px;
 		font-weight: normal;
