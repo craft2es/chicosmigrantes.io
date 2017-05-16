@@ -73,9 +73,6 @@ li a:hover {
 	padding: 50px 0 0 0;
 }
 
-/* .hero {
-	background-color:  blue;
-} */
 
 
 .firstcharacter {
@@ -100,6 +97,7 @@ align-content: center;
 }
 
 .head-img {
+
   position: fixed;
   top: 0;
   left: 0;
@@ -111,6 +109,23 @@ align-content: center;
   height: auto;
   z-index: -1;
 }
+
+img{
+
+ /*  -webkit- filter: grayscale(100%); */
+  filter: grayscale(100%);
+}
+/* .nombre{
+-webkit-filter: url(#monochrome);
+  filter:  url(#monochrome);
+  box-shadow: #224 0.2em 0.2em 0.6em 0.1em;
+}
+.defs-only {
+  position: absolute;
+  height: 0; width: 0;
+  overflow: none;
+  left: -100%;
+} */
 
 .hero{
 /* 		 border: 1px solid red;*/	
@@ -124,6 +139,8 @@ align-content: center;
 	margin-right: auto;
 
 }
+
+
 
 /* 
 This styles the headline, deck, and byline */
