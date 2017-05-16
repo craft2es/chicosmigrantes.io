@@ -123,6 +123,15 @@ li a {
 	background-color:  blue;
 } */
 
+.image1{
+  min-width: 1024px;
+
+
+  height: auto;
+  max-width: 1200px;
+align-content: center;
+
+}
 
 .head-img {
   position: fixed;
