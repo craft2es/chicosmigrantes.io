@@ -153,8 +153,6 @@ h2{
 	line-height: 1.25;
 	color: #a9a9a9; 
 	font-size: 2rem;
-	-moz-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
 	font-style: normal;
 	text-shadow: .2px .1px .1px black;
 	margin-bottom: 100px;
