@@ -57,7 +57,7 @@ li a {
     display: block;
     width: 120px;
     background-color: #BDDFED;
-    opacity: .;
+    opacity: .85;
 
 		font-size: 1.6rem;
 		color: white;
@@ -91,7 +91,7 @@ li a:hover {
 .image1{
   min-width: 1024px;
 
-
+align-content: center;
   height: auto;
   max-width: 1200px;
 align-content: center;
@@ -158,8 +158,8 @@ h1 {
 /* deck*/
 h2{
 	font-family:  'Old Standard TT', serif;
-	line-height: 1.25;
-	color: #F0F0F0; 
+	line-height: 1.5;
+	color: #404545; 
 	font-size: 2rem;
 	font-style: normal;
 	text-shadow: .2px .1px .1px black;
@@ -167,9 +167,15 @@ h2{
 	font-weight: 700;
           
 }
-div.background{
+
+.deck{ background-color:#BDDFED;
+opacity: .85; 
+padding: 3px;
+margin: 1px;}
+
+/* div.background{
 			background-color:#BDDFED;
-			opacity: .7 ;
+			opacity: .85 ;
 		
 			}	
 			
@@ -177,7 +183,7 @@ div.background{
 div.deck {
 			font-weight:bold;
 			color:#404545;
-		}
+		} */
 			
 
 
