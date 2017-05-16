@@ -218,6 +218,15 @@ article{
 	/* 	 border: 1px solid red; */
 }
 
+.dropcap {
+    float: left;
+    font-size: 4rem;
+    line-height: 1;
+    padding-right: 0.125em;
+    padding-bottom: 0;
+    position: relative;
+    color: #9f3131;
+
  li {
     list-style-type: none;
 }
