@@ -138,8 +138,7 @@ This styles the headline, deck, and byline */
 /* this is the headline */
 h1 {
 /* 	this adds stroke for definition against photo */
-	text-shadow: 0px .5px .5px black;
-
+text-shadow: 0px .5px .5px #404545;
    	margin-top: 100px;
 /*    	height: 50vh;
  */    margin-bottom: 10px;
@@ -163,8 +162,10 @@ h2{
 	font-size: 2rem;
 	font-style: normal;
 	text-shadow: .2px .1px .1px black;
-	margin-bottom: 100px;
+	margin-top: 60px;
 	font-weight: 700;
+
+
           
 }
 
@@ -190,13 +191,15 @@ div.deck {
 /* byline */
 h3{
 	text-align: left;
-	padding: 1px;
-/* 	margin-top: 100px;
- */	color: #404545;
+/* 	padding: 1px;
+ *//* 	margin-top: 100px;
+ */	color: #F45555;
 	font-family:  'Questrial', sans-serif;
 	font-weight: bold;
-	font-size: 2.2rem;
+	margin-top: 70px;
+	font-size: 2rem;
 		text-transform: uppercase;
+		text-shadow: .5px .5px .5px #404545;
 
 }
 
@@ -326,7 +329,7 @@ blockquote {
 		font-family: 'Questrial', sans-serif;
 		font-size: 28px;
 		font-weight: normal;
-		width: 50%; 
+		width: 45%; 
 		text-align: justify;
 	margin-left: auto;
 	margin-right: auto;
