@@ -222,7 +222,7 @@ article{
 	font-size: 24px;
 }
 
-.lead{
+.lead .dropcap{
 	padding: 50px 0 0 0;
 	/* 	 border: 1px solid red; */
 }
