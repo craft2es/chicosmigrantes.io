@@ -4,7 +4,7 @@ Tabla de contenidos:
 color palette:
 
 	BACKGROUND------neutral #F0F0F0"
-	FONT------------Carbon #999191;
+	FONT------------Carbon #404545;
 	HOVER-----------sky #BDDFED;
 	TITLE/ACCENT----watermelon (ish) #F45555 
 
@@ -35,7 +35,7 @@ body{
 	font-family:  'Old Standard TT', serif;
 	font-size: 24px;
 	font-style: normal;
-	margin: 0;
+	margin: 2px;
 	padding: 0;
 	display: block;
 	text-align: justify;
@@ -57,6 +57,7 @@ li a {
     display: block;
     width: 120px;
     background-color: #BDDFED;
+    opacity: .;
 
 		font-size: 1.6rem;
 		color: white;
@@ -115,17 +116,7 @@ img{
  /*  -webkit- filter: grayscale(100%); */
   filter: grayscale(100%);
 }
-/* .nombre{
--webkit-filter: url(#monochrome);
-  filter:  url(#monochrome);
-  box-shadow: #224 0.2em 0.2em 0.6em 0.1em;
-}
-.defs-only {
-  position: absolute;
-  height: 0; width: 0;
-  overflow: none;
-  left: -100%;
-} */
+
 
 .hero{
 /* 		 border: 1px solid red;*/	
@@ -149,9 +140,9 @@ h1 {
 /* 	this adds stroke for definition against photo */
 	text-shadow: 0px .5px .5px black;
 
-   	margin-top: 0px;
+   	margin-top: 100px;
 /*    	height: 50vh;
- */    margin-bottom: 100px;
+ */    margin-bottom: 10px;
 	color: #F45555; 
 	font-family: 'Questrial', sans-serif;
 	text-transform: uppercase;
@@ -168,7 +159,7 @@ h1 {
 h2{
 	font-family:  'Old Standard TT', serif;
 	line-height: 1.25;
-	color: #a9a9a9; 
+	color: #F0F0F0; 
 	font-size: 2rem;
 	font-style: normal;
 	text-shadow: .2px .1px .1px black;
@@ -176,11 +167,26 @@ h2{
 	font-weight: 700;
           
 }
+div.background{
+			background-color:#BDDFED;
+			opacity: .7 ;
+		
+			}	
+			
+		
+div.deck {
+			font-weight:bold;
+			color:#404545;
+		}
+			
+
+
 /* byline */
 h3{
 	text-align: left;
+	padding: 1px;
 /* 	margin-top: 100px;
- */	color: #999191;
+ */	color: #404545;
 	font-family:  'Questrial', sans-serif;
 	font-weight: bold;
 	font-size: 2.2rem;
