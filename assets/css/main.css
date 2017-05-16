@@ -46,8 +46,6 @@ body{
 
 /* 
 This styles the nav menu. copied from W3school */
-
-
 	
 ul {
     list-style-type: none;
@@ -70,7 +68,9 @@ li a:hover {
     color: white;
 }
 
-
+.lead{
+	padding: 50px 0 0 0;
+	/* 	 border: 1px solid red; */
 
 /* .hero {
 	background-color:  blue;
