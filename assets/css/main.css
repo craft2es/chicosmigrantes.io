@@ -114,7 +114,12 @@ img{
  /*  -webkit- filter: grayscale(100%); */
   filter: grayscale(100%);
 }
+.footer{
+	align-content: center;
+/* 	margin-left: auto;
+	margin-right: auto; */
 
+}
 .hero{
 /* 		 border: 1px solid red;*/	
 /* font-family: 'Questrial', sans-serif; */
