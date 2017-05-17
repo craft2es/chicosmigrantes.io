@@ -103,10 +103,10 @@ margin: 2px;
   min-width: 1024px;
  */
   width: 100%;
-  height: auto;
+  height: 100%;
   z-index: -1;
-  	margin-top: 50px;
-
+/*   	margin-top: 50px;
+ */
 }
 
 img{
@@ -123,7 +123,6 @@ img{
 	width: 1000px;
 	height: 100vh;
 	padding: 0;
-	margin-top: 50px;
 	margin-left: auto;
 	margin-right: auto;
 
@@ -201,7 +200,7 @@ h3{
  */	color: #F45555;
 	font-family:  'Questrial', sans-serif;
 	font-weight: bold;
-	margin-top: 135px;
+	margin-top: 80px;
 	font-size: 1.5rem;
 		text-transform: uppercase;
 		text-shadow: .5px .5px .5px #404545;
@@ -277,6 +276,25 @@ div.content {
         padding: 15px;
     }
     div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 900px) {
+h1{ 
+   	font-size: 2em;
+   	line-height:1; 
+   }
+h2{
+	font-size: 1em;
+	margin-right: 10px;
+	margin-left: 10px;
+	}
+	h3{
+		font-size:..7em; 
+	}
+	.hero{
+	margin-right: 10px;
+	margin-left: 10px;
+		}
 }
 
 @media screen and (max-width: 400px) {
