@@ -43,30 +43,7 @@ body{
 	margin-right: auto;
 }
 
-/* 
-This styles the nav menu. copied from W3school */
-	
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
 
-li a {
-    display: block;
-    width: 120px;
-    background-color: #BDDFED;
-    opacity: .85;
-
-		font-size: 1.6rem;
-		color: white;
-	} */
-	
-/* Change the link color on hover */
-li a:hover {
-    background-color: #404545;
-    color: white;
-}
 
 .lead{
 	padding: 50px 0 0 0;
@@ -195,7 +172,8 @@ h2{
 .deck{ background-color:#BDDFED;
 opacity: .85; 
 padding: 3px;
-margin: 1px;}
+/* margin: 1px;
+ */}
 
 /* div.background{
 			background-color:#BDDFED;
@@ -244,20 +222,65 @@ article{
 	font-size: 24px;
 }
 
+/* The following styles horizontal nav that is responsive */
+body {margin: 0;}
 
-
-
- li {
+ul.sidenav {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #BDDFED;
+    color: #404545;
+    opacity: .85;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+       
 }
 
-/* header nav {
-	width: auto;
-	position: absolute;
-	left: 0;
-	right: 0;
+ul.sidenav li a {
+    display: block;
+    color: #F45555;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+ 
+ul.sidenav li a.active {
+    background-color: #F0F0F0;
+    font-color: #F45555;
+}
 
-} */
+ul.sidenav li a:hover:not(.active) {
+    background-color: #F0F0F0;
+    color: #F45555;
+}
+
+div.content {
+    margin-left: 25%;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+@media screen and (max-width: 900px) {
+    ul.sidenav {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    ul.sidenav li a {
+        float: left;
+        padding: 15px;
+    }
+    div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+    ul.sidenav li a {
+        text-align: center;
+        float: none;
+    }
+}
 
 
 section {
@@ -357,6 +380,26 @@ blockquote {
 }
 
 
+@media (max-width: 600px) {
+
+ h1{ 
+   	font-size: 1.5em;
+   	line-height:1; 
+   }
+h2{
+	font-size: .8em;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+h3{font-size:.7em; 
+	}
+.hero{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+
+}
 
 
 
