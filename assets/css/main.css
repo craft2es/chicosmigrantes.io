@@ -116,8 +116,10 @@ img{
 }
 .footer{
 	align-content: center;
+	filter: none
 /* 	margin-left: auto;
 	margin-right: auto; */
+
 
 }
 .hero{
