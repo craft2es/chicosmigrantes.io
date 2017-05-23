@@ -149,6 +149,7 @@ This styles the headline, deck, and byline */
 /* this is the headline */
 h1 {
 /* 	this adds stroke for definition against photo */
+background-color: rgba(0,0,0,0.2);
 text-shadow: 0px .5px .5px #404545;
    	margin-top: 100px;
 /*    	height: 50vh;
